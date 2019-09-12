@@ -7,10 +7,10 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./videopage.page.scss'],
 })
 export class VideopagePage implements OnInit {
-  idVideo:String;
+  //idVideo:String;
   constructor(public activateRoute:ActivatedRoute,public router:Router) {
     //console.log(activateRoute.snapshot.params['id'])
-    this.idVideo = activateRoute.snapshot.params['id'];
+    //this.idVideo = activateRoute.snapshot.params['id'];
    }
   
 
